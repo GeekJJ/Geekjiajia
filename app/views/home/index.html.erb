@@ -1,0 +1,13 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+
+<p>hello <%= t raw 'welcome' %>
+
+<br />
+<div>great </div>
+# app/views/home/index.html.erb
+<div><%= t('welcome') %></div>
+<div><%= raw t('welcome') %></div>
+<div><%= t('hello_html') %></div>
+<div><%= t('title.html') %></div>
